@@ -1,1 +1,12 @@
 # this is my first program.
+# 输入git config --global user.name "****"
+  输入git config --global user.email "******"
+  输入mkdir test，建立一个test目录，注意本地仓库名要和git中建立的仓库名一样
+  输入cd test，进入test目录
+  输入git init,初始化版本仓库
+  输入touch README,建立一个README文件
+  用文本编辑器打开README文件，随便输入一点文件，比如：this is a test!
+  输入git add README,将文件添加到上传队列
+  输入git commit -m '******'，缓存提交，引号中的是对本次提交的描述，必须填写，不能为空
+  输入git remote add origin git@github.com:Angela-rain/test.git
+  输入git push origin master，将README文件上传到版本库
