@@ -19,5 +19,5 @@
 三、输入git checkout testbranch，将testbranch分支设置为当前工作分支
 四、输入git add ./，将test目录的所有文件添加至上传队列
 五、输入git commit -m 'newbranch'，缓存提交
-六、输入git remote add origin https://github.com/d1php/test.git，配置上传目标仓库
+六、输入git remote add origin git@github.com:Angela-rain/test.git，配置上传目标仓库
 七、输入git push -u origin testbranch，将文件上传到分支
