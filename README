@@ -10,3 +10,14 @@
   输入git commit -m '******'，缓存提交，引号中的是对本次提交的描述，必须填写，不能为空
   输入git remote add origin git@github.com:Angela-rain/test.git
   输入git push origin master，将README文件上传到版本库
+
+
+建立分支
+
+一、打开gitshell，输入 cd test，进入本地的test版本库
+二、输入git branch testbranch
+三、输入git checkout testbranch，将testbranch分支设置为当前工作分支
+四、输入git add ./，将test目录的所有文件添加至上传队列
+五、输入git commit -m 'newbranch'，缓存提交
+六、输入git remote add origin https://github.com/d1php/test.git，配置上传目标仓库
+七、输入git push -u origin testbranch，将文件上传到分支
